@@ -10,9 +10,7 @@ def stock_picker(array_of_prices)
                     profit = second_price - price
                     picked_days=[array_of_prices.index(price),array_of_prices.index(second_price)]
                 end
-                
             end
-            
         end
     end
     puts picked_days
